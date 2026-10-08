@@ -1,1 +1,9 @@
-
+body {
+  --primary: #2c3e50;
+  --accent: #5b9bd5;
+  --background: #f8f9fa;
+  --text: #333333;
+--card-bg: #ffffff;
+font-family: Arial, sans-serif;
+background-color: var(--background);
+}
