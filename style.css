@@ -1,3 +1,4 @@
+/* AI PROMPT: "Using the existing style.css for my portfolio, add a responsive grid layout to the #projects section so that project articles display in a single column on mobile and expand to multiple columns on larger screens. Use mobile-first media queries with min-width. Do not modify my HTML files. Only add CSS rules to style.css. Keep the existing color palette and fonts." */
 body {
   --primary: #2c3e50;
   --accent: #5b9bd5;
@@ -24,6 +25,9 @@ header {
 }
 nav ul {
 list-style: none;
+display: flex;
+justify-content: center;
+gap: 20px;
 }
 nav a {
   color: white;
@@ -65,6 +69,8 @@ h2 {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0 , 0, 0.1); 
     margin-bottom: 20px;
+    display: grid;
+    gap: 20px;
 }
 article {
   background-color: var(--background);
@@ -100,3 +106,14 @@ p {
   margin-bottom: 10px;
 }
   
+@media (min-width: 600px) {
+  #projects {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1000px) {
+  #projects {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
