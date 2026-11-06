@@ -1,0 +1,1 @@
+Added a main landmark and fixed the contrast ratio

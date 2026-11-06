@@ -35,7 +35,7 @@ nav a {
   margin-right: 15px;
 }
 nav a:hover {
-  color: var(--accent);
+  color: #a8c8e8;
 }
 #hero {
   text-align: center;
@@ -47,7 +47,7 @@ nav a:hover {
 }
 #hero p {
   font-size: 1.2rem;
-  color: #666;
+  color: #595959;
 }
 h2 {
   font-family: cursive;
@@ -79,7 +79,7 @@ article {
   margin-bottom: 10px;
 }
 article h3 {
-  color: var(--accent);
+  color: #1f6fb2;
 }
 #contact {
   background-color: var(--card-bg);
@@ -93,7 +93,7 @@ article h3 {
 footer{
   text-align: center;
   padding: 20px;
-  color: #888;
+  color: #595959;
   margin-top: 20px;
 }
 img{
