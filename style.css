@@ -88,7 +88,7 @@ article h3 {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 #contact a{
-  color: var(--accent);
+  color: #1f6fb2;
 }
 footer{
   text-align: center;
