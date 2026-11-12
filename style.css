@@ -126,3 +126,16 @@ p {
     justify-content: start;
   }
 }
+
+html.dark {
+  --primary: #1a2634;
+  --accent: #7fb3e0;
+  --background: #12181f;
+  --text: #e8e8e8;
+  --card-bg: #1e27ee;
+}
+html.dark nav a { color: #e8e8e8; }
+html.dark #hero p, html.dark footer { color: #b0b6bd; }
+html.dark article h3, html.dark #contact a { color: #7fb3e0; }
+html.dark nav a:hover { color: #a8c8e8; }
+  
