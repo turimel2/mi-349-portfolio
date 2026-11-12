@@ -138,4 +138,8 @@ html.dark nav a { color: #e8e8e8; }
 html.dark #hero p, html.dark footer { color: #b0b6bd; }
 html.dark article h3, html.dark #contact a { color: #7fb3e0; }
 html.dark nav a:hover { color: #a8c8e8; }
+html.dark body { background-color: #12181f; }
+html.dark #about,
+html.dark #projects,
+html.dark #contact { background-color: #1e2733; }
   
